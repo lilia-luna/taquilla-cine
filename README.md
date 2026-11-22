@@ -6,9 +6,10 @@
 
 | Nombre | Cuenta de GitHub/GitLab |
 |---|---|
-| _[Integrante 1]_ | _@usuario1_ |
+| Luna Delgado Lilia Jimena | @lilia-luna |
 | _[Integrante 2]_ | _@usuario2_ |
 | _[Integrante 3]_ | _@usuario3_ |
+| _[Integrante 4]_ | _@usuario3_ |
 
 Sistema de terminal para vender boletos de un cine de cuatro salas (tradicional, 3D y VIP): carga la
 cartelera semanal desde un CSV validando cada renglón, muestra funciones y mapas de asientos, vende
