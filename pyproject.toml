@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taquilla-cine"
+version = "1.0.0"
+description = "Sistema de taquilla de un cine (proyecto final de Programación Orientada a Objetos)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []   # solo biblioteca estándar
+
+[project.scripts]
+taquilla = "taquilla_cine.main:main"
+
+[tool.setuptools.packages.find]
+include = ["taquilla_cine*"]

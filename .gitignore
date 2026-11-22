@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Archivos que el programa genera al ejecutarse
+estado/
+estado_prueba/
+estado_prueba2/
+*.corrupto
+*.respaldo
+
+# Editores / sistema
+.vscode/
+.idea/
+.DS_Store

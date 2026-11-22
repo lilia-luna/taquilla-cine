@@ -1,0 +1,16 @@
+pelicula,clasificacion,duracion,sala,fecha,hora
+Galaxia Perdida,B,120,1,2026-12-04,14:00
+Galaxia Perdida,B,120,7,2026-12-04,16:00
+Galaxia Perdida,B,120,2,2026-13-45,16:00
+Galaxia Perdida,B,120,2,04/12/2026,16:00
+Galaxia Perdida,B,120,2,2026-12-04,25:99
+Cena para Dos,B,110,1,2026-12-04,15:30
+Cena para Dos,B,110,1,2026-12-04,16:10
+Cena para Dos,B,110,1,2026-12-04,16:20
+El Viaje de Luna,D,95,3,2026-12-04,18:00
+El Viaje de Luna,A,noventa,3,2026-12-04,18:00
+El Viaje de Luna,A,95,3,2026-12-04
+
+,A,95,3,2026-12-04,18:00
+Galaxia Perdida,B,120,1,2026-11-27,14:30
+Galaxia Perdida,B,120,3,2026-12-04,18:00

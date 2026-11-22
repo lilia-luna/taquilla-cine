@@ -1,0 +1,49 @@
+pelicula,clasificacion,duracion,sala,fecha,hora
+El Viaje de Luna,A,95,1,2026-11-23,16:00
+Cena para Dos,B,110,1,2026-11-23,18:00
+Cena para Dos,B,110,2,2026-11-23,17:00
+El Viaje de Luna,A,95,3,2026-11-23,19:00
+Cena para Dos,B,110,4,2026-11-23,20:00
+La Casa del Lago,C,100,1,2026-11-24,19:00
+El Viaje de Luna,A,95,2,2026-11-24,16:00
+Cena para Dos,B,110,3,2026-11-24,20:00
+El Viaje de Luna,A,95,1,2026-11-25,15:00
+La Casa del Lago,C,100,2,2026-11-25,20:00
+Cena para Dos,B,110,1,2026-11-26,19:00
+El Viaje de Luna,A,95,4,2026-11-26,18:00
+Galaxia Perdida,B,120,1,2026-11-27,14:00
+Galaxia Perdida,B,120,1,2026-11-27,16:30
+Galaxia Perdida,B,120,1,2026-11-27,19:00
+La Casa del Lago,C,100,1,2026-11-27,21:30
+El Viaje de Luna,A,95,2,2026-11-27,15:00
+El Viaje de Luna,A,95,2,2026-11-27,17:00
+Galaxia Perdida,B,120,2,2026-11-27,19:00
+La Casa del Lago,C,100,2,2026-11-27,21:30
+Galaxia Perdida,B,120,3,2026-11-27,16:00
+El Viaje de Luna,A,95,3,2026-11-27,18:30
+Galaxia Perdida,B,120,3,2026-11-27,20:30
+Galaxia Perdida,B,120,4,2026-11-27,17:00
+Cena para Dos,B,110,4,2026-11-27,19:30
+Galaxia Perdida,B,120,1,2026-11-28,12:00
+Galaxia Perdida,B,120,1,2026-11-28,14:30
+Galaxia Perdida,B,120,1,2026-11-28,17:00
+Galaxia Perdida,B,120,1,2026-11-28,19:30
+El Viaje de Luna,A,95,2,2026-11-28,11:00
+El Viaje de Luna,A,95,2,2026-11-28,13:00
+Galaxia Perdida,B,120,2,2026-11-28,15:00
+Cena para Dos,B,110,2,2026-11-28,17:30
+La Casa del Lago,C,100,2,2026-11-28,20:00
+Galaxia Perdida,B,120,3,2026-11-28,13:00
+Galaxia Perdida,B,120,3,2026-11-28,15:30
+Galaxia Perdida,B,120,3,2026-11-28,18:00
+Galaxia Perdida,B,120,4,2026-11-28,16:00
+Galaxia Perdida,B,120,4,2026-11-28,18:30
+Galaxia Perdida,B,120,1,2026-11-29,13:00
+Galaxia Perdida,B,120,1,2026-11-29,15:30
+Galaxia Perdida,B,120,1,2026-11-29,18:00
+El Viaje de Luna,A,95,2,2026-11-29,12:00
+El Viaje de Luna,A,95,2,2026-11-29,14:00
+Cena para Dos,B,110,2,2026-11-29,16:00
+Galaxia Perdida,B,120,3,2026-11-29,14:00
+Galaxia Perdida,B,120,3,2026-11-29,16:30
+Galaxia Perdida,B,120,4,2026-11-29,17:00

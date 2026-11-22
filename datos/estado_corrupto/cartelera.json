@@ -1,0 +1,7 @@
+{
+  "siguiente_id": 3,
+  "funciones": [
+    {"id": "F001", "pelicula": "Galaxia Perdida", "clasificacion": "B", "duracion": 120, "sala": 1, "inicio": "2026-11-27T14:00"},
+    {"id": "F002", "pelicula": "Fantasma", "clasificacion": "B", "duracion": 90, "sala": 9, "inicio": "2026-11-27T16:00"}
+  ]
+}
