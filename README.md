@@ -8,7 +8,7 @@
 |---|---|
 | Luna Delgado Lilia Jimena | @lilia-luna |
 | Velazquez Valdes Abigail Estefania | @aevv09 |
-| _[Integrante 3]_ | _@usuario3_ |
+| Aguilar Sánchez Carla Alexandra | @alexitabzzl |
 | _[Integrante 4]_ | _@usuario4_ |
 
 Sistema de terminal para vender boletos de un cine de cuatro salas (tradicional, 3D y VIP): carga la
