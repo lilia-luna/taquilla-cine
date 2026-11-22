@@ -7,7 +7,7 @@
 | Nombre | Cuenta de GitHub/GitLab |
 |---|---|
 | Luna Delgado Lilia Jimena | @lilia-luna |
-| _[Integrante 2]_ | _@usuario2_ |
+| Velazquez Valdes Abigail Estefania | @aevv09 |
 | _[Integrante 3]_ | _@usuario3_ |
 | _[Integrante 4]_ | _@usuario3_ |
 
