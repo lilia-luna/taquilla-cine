@@ -16,9 +16,9 @@ class ReporteDia:
     """Datos del reporte de un día (se calcula una vez y luego se da formato)."""
 
     fecha: date
-    por_pelicula: dict = field(default_factory=dict)  # título -> [boletos, ingresos]
-    por_sala: dict = field(default_factory=dict)      # número -> [boletos, ingresos]
-    funciones: list = field(default_factory=list)     # (función, vendidos, capacidad, porcentaje)
+    por_pelicula: dict = field(default_factory=dict)  # título -> [boletos, ingresos] 
+    por_sala: dict = field(default_factory=dict)      # número -> [boletos, ingresos] 
+    funciones: list = field(default_factory=list)     # (función, vendidos, capacidad, porcentaje) 
     cancelados: int = 0
     reembolsos: Decimal = Decimal(0)
 
