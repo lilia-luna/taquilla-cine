@@ -118,13 +118,13 @@ tardar 30 minutos antes de la función.
 * **Herramienta:** Claude (Anthropic).
 * **Qué se le pidió:** a partir de los requerimientos del proyecto (Tema 1, taquilla de un cine), analizar alternativas de diseño, explorar una propuesta de arquitectura por capas y recibir sugerencias para organizar las clases, pruebas y documentación.
 * **Qué se usó de sus respuestas:** no se adoptó de forma directa todo el material generado por la herramienta; se utilizó principalmente como apoyo para comprender mejor la separación de responsabilidades en paquetes (`dominio` / `servicios` / `persistencia` / `interfaz`) y para evaluar sugerencias de diseño (como la jerarquía de `Sala` y el manejo de errores), las cuales fueron revisadas, adaptadas e implementadas por el equipo.
-* **Qué se corrigió:** se descartaron partes que no se ajustaban a nuestra implementación, se corrigieron validaciones y comportamientos en el manejo de datos (por ejemplo, cuando `funciones` en el JSON no era una lista y errores de tubería rota `BrokenPipe`), y se ajustaron nombres, reglas de negocio y detalles de presentación en tablas y diagramas UML tras probar el sistema con nuestras pruebas `unittest`[cite: 1].
+* **Qué se corrigió:** se descartaron partes que no se ajustaban a nuestra implementación, se corrigieron validaciones y comportamientos en el manejo de datos (por ejemplo, cuando `funciones` en el JSON no era una lista y errores de tubería rota `BrokenPipe`), y se ajustaron nombres, reglas de negocio y detalles de presentación en tablas y diagramas UML tras probar el sistema con nuestras pruebas.
 
 ## 5. Contribuciones
 
 | Integrante | Contribución |
 |---|---|
-| Luna Delgado Lilia Jimena | _Dominio: salas, tarifas, película, función, boleto (`dominio/`), pruebas `test_dominio.py`._ |
-| Velazquez Valdes Abigail Estefania | _Cartelera y carga del CSV, datos de ejemplo, persistencia (`servicios/cartelera.py`, `persistencia/`, `datos/`), pruebas de CSV y persistencia._ |
-| _[Integrante 3]_ | _Taquilla (venta/cancelación), simulador con hilos, reportes, impresor (`servicios/`), pruebas de venta y concurrencia._ |
-| Olivar Torres Liliana | _Interfaz (CLI y menú), README, documento de diseño y diagramas UML._ |
+| Luna Delgado Lilia Jimena | Dominio: salas, tarifas, película, función, boleto (`dominio/`), pruebas `test_dominio.py`. |
+| Velazquez Valdes Abigail Estefania | Cartelera y carga del CSV, datos de ejemplo, persistencia (`servicios/cartelera.py`, `persistencia/`, `datos/`), pruebas de CSV y persistencia. |
+| _[Integrante 3]_ | Taquilla (venta/cancelación), simulador con hilos, reportes, impresor (`servicios/`), pruebas de venta y concurrencia. |
+| Olivar Torres Liliana | Interfaz (CLI y menú), README, documento de diseño y diagramas UML. |
