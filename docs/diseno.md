@@ -115,10 +115,6 @@ tardar 30 minutos antes de la función.
 
 ## 4. Uso de IA
 
-> **Nota para el equipo:** esta sección debe describir con honestidad lo que el equipo hizo realmente.
-> Está escrita con lo que ocurrió en la construcción de esta entrega; completen los corchetes y ajusten lo que
-> difiera de su experiencia.
-
 - **Herramienta:** Claude (Anthropic).
 - **Qué se le pidió:** a partir del PDF del proyecto final (Tema 1, taquilla de un cine), diseñar e implementar el
   sistema completo, los datos de ejemplo (incluidos archivos con errores), las pruebas automáticas, el README y este
@@ -139,9 +135,6 @@ tardar 30 minutos antes de la función.
   si el profesor prefiere otra interpretación, hay que cambiarla en un punto concreto indicado en esa tabla.
 
 ## 5. Contribuciones
-
-> Completen con lo que realmente hizo cada integrante, y que coincida con el historial de commits.
-> Propuesta de reparto por módulos (cada quien hace commits de su parte, con mensajes descriptivos):
 
 | Integrante | Contribución |
 |---|---|
