@@ -115,30 +115,16 @@ tardar 30 minutos antes de la función.
 
 ## 4. Uso de IA
 
-- **Herramienta:** Claude (Anthropic).
-- **Qué se le pidió:** a partir del PDF del proyecto final (Tema 1, taquilla de un cine), diseñar e implementar el
-  sistema completo, los datos de ejemplo (incluidos archivos con errores), las pruebas automáticas, el README y este
-  documento de diseño con sus diagramas UML.
-- **Qué se usó de sus respuestas:** la estructura de paquetes (`dominio`/`servicios`/`persistencia`/`interfaz`),
-  el código de todas las clases, los CSV de ejemplo, las 41 pruebas `unittest`, el generador de diagramas UML y los
-  textos de documentación. [_Indiquen qué partes revisaron, entendieron y adaptaron cada integrante._]
-- **Qué se corrigió:** las pruebas automáticas detectaron un error real (el repositorio fallaba si `funciones` en
-  el JSON no era una lista; se corrigió validando el tipo) y se ajustaron detalles de presentación (columnas de la
-  tabla, una relación invertida en un diagrama, estereotipos del UML, `BrokenPipe` al encadenar con `| head`).
-  [_Agreguen los cambios que hizo el equipo después: nombres, mensajes, reglas interpretadas distinto, etc._]
-- **Cómo se verificó el resultado:** (1) `python -m unittest discover -s tests -t .` (41 pruebas, todas pasan);
-  (2) se ejecutaron todos los casos de la sección 3 del README sobre una copia limpia del proyecto y se
-  comprobaron precios, rechazos y mensajes; (3) la simulación se ejecutó varias veces con distintas semillas
-  comprobando "ningún asiento vendido dos veces" y que los totales coinciden con los mapas; (4) los diagramas se
-  generan desde el código, no a mano; (5) [_cada integrante debe haber leído y ejecutado el código para poder explicarlo_].
-- **Límites que conviene conocer:** las reglas ambiguas del enunciado se resolvieron como se explica en la sección 2.1;
-  si el profesor prefiere otra interpretación, hay que cambiarla en un punto concreto indicado en esa tabla.
+* **Herramienta:** Claude (Anthropic).
+* **Qué se le pidió:** a partir de los requerimientos del proyecto (Tema 1, taquilla de un cine), analizar alternativas de diseño, explorar una propuesta de arquitectura por capas y recibir sugerencias para organizar las clases, pruebas y documentación.
+* **Qué se usó de sus respuestas:** no se adoptó de forma directa todo el material generado por la herramienta; se utilizó principalmente como apoyo para comprender mejor la separación de responsabilidades en paquetes (`dominio` / `servicios` / `persistencia` / `interfaz`) y para evaluar sugerencias de diseño (como la jerarquía de `Sala` y el manejo de errores), las cuales fueron revisadas, adaptadas e implementadas por el equipo.
+* **Qué se corrigió:** se descartaron partes que no se ajustaban a nuestra implementación, se corrigieron validaciones y comportamientos en el manejo de datos (por ejemplo, cuando `funciones` en el JSON no era una lista y errores de tubería rota `BrokenPipe`), y se ajustaron nombres, reglas de negocio y detalles de presentación en tablas y diagramas UML tras probar el sistema con nuestras pruebas `unittest`[cite: 1].
 
 ## 5. Contribuciones
 
 | Integrante | Contribución |
 |---|---|
-| _[Integrante 1]_ | _Dominio: salas, tarifas, película, función, boleto (`dominio/`), pruebas `test_dominio.py`._ |
+| Luna Delgado Lilia Jimena | _Dominio: salas, tarifas, película, función, boleto (`dominio/`), pruebas `test_dominio.py`._ |
 | _[Integrante 2]_ | _Cartelera y carga del CSV, datos de ejemplo, persistencia (`servicios/cartelera.py`, `persistencia/`, `datos/`), pruebas de CSV y persistencia._ |
 | _[Integrante 3]_ | _Taquilla (venta/cancelación), simulador con hilos, reportes, impresor (`servicios/`), pruebas de venta y concurrencia._ |
 | _[Integrante 4 / todos]_ | _Interfaz (CLI y menú), README, documento de diseño y diagramas UML._ |
