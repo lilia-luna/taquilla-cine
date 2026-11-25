@@ -9,7 +9,7 @@
 | Luna Delgado Lilia Jimena | @lilia-luna |
 | Velazquez Valdes Abigail Estefania | @aevv09 |
 | Aguilar Sánchez Carla Alexandra | @alexitabzzl |
-| _[Integrante 4]_ | _@usuario4_ |
+| Olivar Torres Liliana | @Yatsu-0104 |
 
 Sistema de terminal para vender boletos de un cine de cuatro salas (tradicional, 3D y VIP): carga la
 cartelera semanal desde un CSV validando cada renglón, muestra funciones y mapas de asientos, vende
