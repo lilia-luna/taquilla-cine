@@ -126,5 +126,5 @@ tardar 30 minutos antes de la función.
 |---|---|
 | Luna Delgado Lilia Jimena | Dominio: salas, tarifas, película, función, boleto (`dominio/`), pruebas `test_dominio.py`. |
 | Velazquez Valdes Abigail Estefania | Cartelera y carga del CSV, datos de ejemplo, persistencia (`servicios/cartelera.py`, `persistencia/`, `datos/`), pruebas de CSV y persistencia. |
-| _[Integrante 3]_ | Taquilla (venta/cancelación), simulador con hilos, reportes, impresor (`servicios/`), pruebas de venta y concurrencia. |
+| Aguilar Sanchez Carla Alexandra | Taquilla (venta/cancelación), simulador con hilos, reportes, impresor (`servicios/`), pruebas de venta y concurrencia. |
 | Olivar Torres Liliana | Interfaz (CLI y menú), README, documento de diseño y diagramas UML. |
