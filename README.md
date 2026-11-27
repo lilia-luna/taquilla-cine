@@ -22,7 +22,7 @@ simula la venta concurrente de un estreno (4 taquillas + venta en línea).
   estándar, por eso no hay `requirements.txt`.
 
 ```bash
-git clone https://github.com/USUARIO/taquilla-cine.git     # cambie la URL por la de su repositorio
+git clone https://github.com/lilia-luna/taquilla-cine.git     
 cd taquilla-cine
 python -m venv .venv                                        # opcional pero recomendado
 source .venv/bin/activate                                   # Windows: .venv\Scripts\activate
